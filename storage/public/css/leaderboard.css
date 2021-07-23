@@ -1,0 +1,102 @@
+@font-face {
+    font-family: KanedaStrong;
+    src: url('../fonts/Kaneda5.otf');
+}
+@font-face {
+    font-family: KanedaBold;
+    src: url('../fonts/Kaneda3.otf');
+}
+@font-face {
+    font-family: KanedaMedium;
+    src: url('../fonts/Kaneda2.otf');
+}
+@font-face {
+    font-family: KanedaLight;
+    src: url('../fonts/Kaneda1.otf');
+}
+.lead-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 600px) {
+    .lead-body {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 600px) {
+    .lead-body {
+        width: 40%;
+    }
+}
+
+.lead-body .lead-title {
+    font-size: 55px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.0;
+    margin-top: 10px;
+    font-family: KanedaStrong;
+}
+.lead-body .lead-date {
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-family: KanedaLight;
+}
+.lead-body .lead-table-box {
+    margin-top: 15px;
+    width: calc(100% + 50px);
+}
+.table th, .table td {
+    line-height: 6px;
+    border-top:none;
+    color: #ffffff;
+    font-size: 13px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #33333321;
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #33333333;
+}
+.table thead th {
+    border-bottom:none;
+    background-color: #33333380;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    vertical-align: middle;
+    line-height: 20px;
+    font-family: KanedaLight;
+}
+.table tbody td {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: KanedaLight;
+}
+.lead-body .filter-by-sport {
+    width: 150px;
+    z-index: 999;
+    margin-bottom: 0px;
+}
+
+select {
+    cursor: pointer;
+}
+
+.lead-body .filter-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lead-body .filter-box .filter-label {
+    margin-right: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: KanedaLight;
+}

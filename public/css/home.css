@@ -1,0 +1,70 @@
+@font-face {
+    font-family: KanedaStrong;
+    src: url('../fonts/Kaneda5.otf');
+}
+@font-face {
+    font-family: KanedaBold;
+    src: url('../fonts/Kaneda3.otf');
+}
+@font-face {
+    font-family: KanedaMedium;
+    src: url('../fonts/Kaneda2.otf');
+}
+@font-face {
+    font-family: KanedaLight;
+    src: url('../fonts/Kaneda1.otf');
+}
+
+.home-body {display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 600px) {
+    .home-body {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 600px) {
+    .home-body {
+        width: 40%;
+    }
+}
+
+.home-body .body-title {
+    font-size: 55px;
+    color: #ffffff;
+    font-family: KanedaStrong;
+}
+
+.home-body .body-content {
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: KanedaLight;
+}
+.home-body .action-buttons {
+    margin-top: 17px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+.home-body .action-buttons .custom-home-action-btn {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #437bb7;
+    margin-bottom: 13px;
+    padding: 3px 10px;
+    background: #ffffff;
+    font-size: 32px;
+    font-family: KanedaMedium;
+    border-radius: 5px!important;
+}
+.home-body .action-buttons .custom-home-action-btn .action-arrow {
+    font-size: 20px;
+}

@@ -1,0 +1,360 @@
+[28-Jan-2021 11:02:46 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:02:46 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:02:46 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:03:03 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:03:03 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:03:03 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:03:07 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:03:07 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:03:07 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:34 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:34 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:34 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:35 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:35 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:35 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:36 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:36 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:36 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:36 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:36 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:36 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:37 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:37 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:37 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:37 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:37 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:37 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:37 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:37 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:38 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:38 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:38 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:38 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:38 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:38 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:39 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:39 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:39 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:41 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:41 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:42 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:42 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:42 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:45 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:45 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:47 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:47 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:50 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:50 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:50 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:53 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:53 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:53 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:54 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:54 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:54 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:04:55 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:55 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:04:55 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:05:17 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:17 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:17 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:05:18 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:18 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:18 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:05:31 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:31 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:05:31 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:31 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:05:33 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:33 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:33 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:05:33 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:33 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:33 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:05:35 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:35 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:35 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:05:57 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:57 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:05:57 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:06:47 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:06:47 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:06:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:07:30 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:07:30 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:07:30 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:09:30 UTC] PHP Warning:  include(error.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/index.php on line 4
+[28-Jan-2021 11:09:30 UTC] PHP Warning:  include(): Failed opening 'error.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/index.php on line 4
+[28-Jan-2021 11:09:31 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:09:31 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:09:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:09:31 UTC] PHP Warning:  include(error.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/index.php on line 4
+[28-Jan-2021 11:09:31 UTC] PHP Warning:  include(): Failed opening 'error.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/index.php on line 4
+[28-Jan-2021 11:09:31 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:09:31 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:09:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:10:01 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:10:01 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:10:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:10:01 UTC] PHP Warning:  include(/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:10:01 UTC] PHP Warning:  include(): Failed opening '/home/gknm271duqz4/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/composer/ClassLoader.php on line 444
+[28-Jan-2021 11:10:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{clo in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[28-Jan-2021 11:14:38 UTC] PHP Warning:  Uncaught ErrorException: require(/home/gknm271duqz4/public_html/routes/web.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/g...', '/home/gknm271du...', 35, Array)
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(423): Illuminate\Routing\RouteFileRegistrar->register('/home/gknm271du...')
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(380): Illuminate\Routing\Router->loadRoutes('/home/gknm271du...')
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistra in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[28-Jan-2021 11:14:38 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required '/home/gknm271duqz4/public_html/routes/web.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[28-Jan-2021 11:14:42 UTC] PHP Warning:  Uncaught ErrorException: require(/home/gknm271duqz4/public_html/routes/web.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/g...', '/home/gknm271du...', 35, Array)
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(423): Illuminate\Routing\RouteFileRegistrar->register('/home/gknm271du...')
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(380): Illuminate\Routing\Router->loadRoutes('/home/gknm271du...')
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistra in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[28-Jan-2021 11:14:42 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required '/home/gknm271duqz4/public_html/routes/web.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[28-Jan-2021 11:14:44 UTC] PHP Warning:  Uncaught ErrorException: require(/home/gknm271duqz4/public_html/routes/web.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/g...', '/home/gknm271du...', 35, Array)
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(423): Illuminate\Routing\RouteFileRegistrar->register('/home/gknm271du...')
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(380): Illuminate\Routing\Router->loadRoutes('/home/gknm271du...')
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistra in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[28-Jan-2021 11:14:44 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required '/home/gknm271duqz4/public_html/routes/web.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[28-Jan-2021 11:14:55 UTC] PHP Warning:  Uncaught ErrorException: require(/home/gknm271duqz4/public_html/routes/web.php): failed to open stream: No such file or directory in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/g...', '/home/gknm271du...', 35, Array)
+#1 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(423): Illuminate\Routing\RouteFileRegistrar->register('/home/gknm271du...')
+#3 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(380): Illuminate\Routing\Router->loadRoutes('/home/gknm271du...')
+#4 /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistra in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[28-Jan-2021 11:14:55 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required '/home/gknm271duqz4/public_html/routes/web.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gknm271duqz4/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35

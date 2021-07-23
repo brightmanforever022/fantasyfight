@@ -1,0 +1,65 @@
+.profile-body {
+  font-family: KanedaStrong;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-title {
+  font-size: 55px;
+  color: #ffffff;
+  overflow-wrap: anywhere;
+  line-height: 40px;
+  margin-bottom: 20px;
+  font-family: KanedaStrong;
+  text-align: center;
+}
+
+.profile-content {
+  max-width: 414px;
+  width: 100%;
+}
+
+.game-board {
+  background: #FFF;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.game-header {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game-header .title {
+  font-size: 35px;
+  color: #4781CE;
+}
+
+.game-score-body .question-board {
+  width: 100%;
+  border-top: 1px solid #BFBFBF;
+  font-size: 20px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-board {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.score-board span:first-child {
+  font-size: 45px;
+  line-height: 40px;
+}
+
+.score-board span:last-child {
+  font-size: 16px;
+  color: #777;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: KanedaStrong;
+    src: url('../fonts/Kaneda5.otf');
+}
+@font-face {
+    font-family: KanedaBold;
+    src: url('../fonts/Kaneda3.otf');
+}
+@font-face {
+    font-family: KanedaMedium;
+    src: url('../fonts/Kaneda2.otf');
+}
+@font-face {
+    font-family: KanedaLight;
+    src: url('../fonts/Kaneda1.otf');
+}
+.custom-checkbox .form-check-label {
+    font-size:10px;
+    margin-bottom:5px;
+}

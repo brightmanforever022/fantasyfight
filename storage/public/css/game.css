@@ -1,0 +1,153 @@
+@font-face {
+    font-family: KanedaStrong;
+    src: url('../fonts/Kaneda5.otf');
+}
+@font-face {
+    font-family: KanedaBold;
+    src: url('../fonts/Kaneda3.otf');
+}
+@font-face {
+    font-family: KanedaMedium;
+    src: url('../fonts/Kaneda2.otf');
+}
+@font-face {
+    font-family: KanedaLight;
+    src: url('../fonts/Kaneda1.otf');
+}
+.game-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 600px) {
+    .game-body {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 600px) {
+    .game-body {
+        width: 40%;
+    }
+}
+.game-body .game-title {
+    font-size: 55px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.0;
+    margin-top: 10px;
+    font-family: KanedaStrong;
+}
+.game-body .game-sub-title {
+    font-size: 27px;
+    color: #ffffff;
+    text-align: center;
+    font-family: KanedaMedium;
+}
+.game-body .selected-groups {
+    width: 100%;
+    margin-top: 10px;
+    z-index: 999;
+}
+.game-body .selected-groups .selected-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.game-body .selected-groups .selected-group .pick-item {
+    width: calc(50% - 10px);
+    background: #ffffff;
+    margin:5px;
+    border-radius: 4px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+/* .game-body .selected-groups .selected-group .pick-item:hover {
+    border: 1px solid #dddddd;
+} */
+.game-body .selected-groups .selected-group .pick-item  .pick-item-names {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 9px;
+}
+.game-body .selected-groups .selected-group .pick-item  .pick-item-names .pick-item-label {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #437bb7;
+    font-family: KanedaLight;
+}
+.game-body .selected-groups .selected-group .pick-item  .pick-item-names .pick-item-name {
+    font-size: 22px;
+    line-height: 5px;
+    color: #437bb7;
+    font-family:KanedaMedium;
+}
+.game-body .selected-groups .selected-group .pick-item .pick-item-amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.game-body .selected-groups .selected-group .pick-item .pick-item-amount .pick-item-number {
+    font-size: 34px;
+    color: #000000;
+    line-height: 27px;
+    font-family:KanedaStrong;
+}
+.game-body .selected-groups .selected-group .pick-item .pick-item-amount .pick-item-number-comment {
+    font-size: 8px;
+    color: #000000;
+    opacity: 0.8;
+    font-family:KanedaLight;
+}
+.game-body .submit-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    z-index: 999;
+    margin-bottom: 65px;
+}
+.submit-box .submit-btn {
+    margin-top: 15px;
+    background: #ffffff;
+    color: #000000;
+    font-family: KanedaMedium;
+    font-size: 22px;
+}
+.game-body .error-alert {
+    z-index: 999;
+}
+
+.pick-checked {
+    border-color: #f2720c;
+    border-width:3px;
+    border-style:solid;
+}
+
+.game-body .submit-box a {
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+    background: #ffffff;
+    color: #000000;
+    font-family: KanedaMedium;
+    font-size: 22px;
+    border-radius: 4px;
+    padding: 0 16px;
+}
+
+.login-btn, .redirect-btn {
+    font-size: 30px;
+    background-image: linear-gradient(to bottom, #5ac1c2, #478acd);
+    line-height: 16px;
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    color: #ffffff;
+    font-family:KanedaMedium;
+}
