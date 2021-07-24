@@ -16,6 +16,7 @@ class AddImageToSportsTable extends Migration
         Schema::table('sports', function (Blueprint $table) {
             $table->string('image');
             $table->string('description');
+            $table->string('redirect_url');
         });
     }
 

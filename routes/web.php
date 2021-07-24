@@ -54,7 +54,7 @@ Route::post('/admin/answer/update', [AdminAnswerController::class, 'update'])->n
 Route::delete('/admin/answer/delete', [AdminAnswerController::class, 'delete'])->name('admin.answer.delete');
 
 Route::get('/prizes', [PrizesController::class, 'index'])->name('prizes');
-Route::get('/prizes/filter/{sport_id}/{rank_id}', [PrizesController::class, 'filter'])->name('prizes.filter');
+Route::get('/prizes/filter/{sport_id}', [PrizesController::class, 'filter'])->name('prizes.filter');
 Route::get("/payments/all", [PaymentController::class, 'payments'])->name('payments.view');
 Route::get('/{id?}', [HomeController::class, 'index'])->name('home');
 Route::get('/home/logout', [HomeController::class, 'logout'])->name('home.logout');

@@ -13,7 +13,7 @@ class Sport extends Model
     public $timestamps = true;
 
     protected $fillable = [
-        'name', 'sport_id', 'emails_group', 'image', 'description'
+        'name', 'sport_id', 'emails_group', 'image', 'description', 'redirect_url'
     ];
 
     /**

@@ -204,3 +204,8 @@
 .prize-box-select-rank {
     width: 100px;
 }
+
+.prize-table-box {
+    margin-top: 15px;
+    width: calc(100% - 50px);
+}

@@ -40,8 +40,9 @@
                                     <label class="custom-control-label" for="splashCheck">Add splash page?</label>
                                 </div>
                                 <div class="collapse w-100" id="collapseSplash">
-                                    <textarea name="description" placeholder="Add Description" class="form-control my-3"></textarea>
-                                    <div class="custom-file">
+                                    <textarea name="description" placeholder="Add Description" class="form-control mt-3"></textarea>
+                                    <input type="text" class="form-control mt-2" name="redirectUrl" id="storeRedirectUrl" placeholder="redirect url">
+                                    <div class="custom-file mt-2">
                                         <input type="file" name="image" accept="image/*" id="splashImage" />
                                         <label class="custom-file-label" for="splashImage">Choose Image</label>
                                     </div>
@@ -121,12 +122,20 @@
                                         @csrf
                                         <div class="form-group custom-form-group">
                                             <span class="confirm-text">Are you sure to edit this sport?</span>
-                                            <input type="text" class="form-control" name="name" value="{{$sport->name}}">
-                                            <textarea class="form-control mt-2" name="description">{{$sport->description}}</textarea>
-                                            <input type="hidden" class="form-control mt-2" name="sport_id" value="{{$sport->sport_id}}">
-                                            <div class="custom-file mt-2">
-                                                <input type="file" name="image" accept="image/*" id="splashImageUpdate" />
-                                                <label class="custom-file-label" for="splashImageUpdate">Choose Image</label>
+                                            <input type="text" class="form-control" name="name" value="{{$sport->name}}" placeholder="sport name">
+
+                                            <div class="custom-control custom-checkbox my-3" data-toggle="collapse" href="#collapseUpdateSplash" role="button" aria-expanded="false" aria-controls="collapseSplash">
+                                                <input type="checkbox" class="custom-control-input" id="splashUpdateCheck_{{$sport->sport_id}}" name="splashUpdateEnabled">
+                                                <label class="custom-control-label" for="splashUpdateCheck_{{$sport->sport_id}}">Add splash page?</label>
+                                            </div>
+                                            <div class="collapse w-100" id="collapseUpdateSplash">
+                                                <textarea class="form-control mt-2" name="description"  placeholder="sport description">{{$sport->description}}</textarea>
+                                                <input type="hidden" class="form-control mt-2" name="sport_id" value="{{$sport->sport_id}}">
+                                                <input type="text" class="form-control mt-2" name="redirectUrl" value="{{$sport->redirect_url}}" placeholder="redirect url">
+                                                <div class="custom-file mt-2">
+                                                    <input type="file" name="image" accept="image/*" id="splashImageUpdate_{{$sport->sport_id}}" />
+                                                    <label class="custom-file-label" for="splashImageUpdate_{{$sport->sport_id}}">Choose Image</label>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="action-box">

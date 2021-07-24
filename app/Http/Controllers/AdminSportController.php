@@ -24,12 +24,14 @@ class AdminSportController extends Controller
     {
         $imageUrl = "";
         $description = "";
+        $redirectUrl = "";
 
         if ($request->splashEnabled) {
             if ($request->hasFile("image")) {
                 $imageUrl = $request->file("image")->storePublicly("images");
             }
             $description = $request->description;
+            $redirectUrl = $request->redirectUrl;
         }
         $request->validate([
             'name' => 'required',
@@ -39,7 +41,8 @@ class AdminSportController extends Controller
             'name' => $request->name,
             'sport_id' => str_replace(':', '-', str_replace('.', '-', str_replace(' ', '-', $request->name))),
             'image' => $imageUrl,
-            'description' => $description
+            'description' => $description,
+            'redirect_url' => $redirectUrl
         ]);
         
         for ( $i = 1; $i < 4; $i++ ) {
@@ -54,11 +57,23 @@ class AdminSportController extends Controller
     }
     public function update(Request $request)
     {
-        $updateArr = array('name' => $request->name, 'description' => $request->description);
 
-        if ($request->hasFile("image")) {
-            $updateArr['image'] = $request->file("image")->storePublicly("images");
+        $imageUrl = "";
+        $description = "";
+        $redirectUrl = "";
+
+        if ($request->splashUpdateEnabled) {
+            if ($request->hasFile("image")) {
+                $imageUrl = $request->file("image")->storePublicly("images");
+            }
+            $redirectUrl = $request->redirectUrl;
+            $description = $request->description;
         }
+        $request->validate([
+            'name' => 'required',
+        ]);
+
+        $updateArr = array('name' => $request->name, 'description' => $description, 'image' => $imageUrl, 'redirect_url' => $redirectUrl);
 
         if (Sport::where('sport_id', $request->sport_id)->update($updateArr)) {
             return redirect()->route('admin');

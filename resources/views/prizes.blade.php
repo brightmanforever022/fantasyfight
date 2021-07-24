@@ -10,34 +10,26 @@
     <div class="lead-body">
         <span class="lead-title">PRIZES</span>
         <div class="row" id="filter-area">
-            <div class="filter-box col-6">
+            <div class="filter-box">
                 <span class="filter-label">Sport:</span>
                 <div class="form-group filter-by-sport">
                     <select class="form-control" id="select_prize_sport">
-                        @foreach($sports as $sport)
-                            <option value="{{$sport->sport_id}}">{{$sport->name}}</option>
+                        @foreach($sports as $index => $sport)
+                            @if (!$index)
+                                <option value="{{$sport->sport_id}}" selected>{{$sport->name}}</option>
+                            @else 
+                                <option value="{{$sport->sport_id}}">{{$sport->name}}</option>
+                            @endif
                         @endforeach
-                        <option value="all" selected>All</option>
                     </select>
                 </div>
             </div>
-            <div class="filter-box col-6">
-                <span class="filter-label">Rank: </span>
-                <select name="" class="form-control" id="select_prize_rank">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="all" selected>All</option>
-                </select>
-            </div>
         </div>
-        <div class="lead-table-box">
+        <div class="prize-table-box">
             <table class="table table-striped">
                 <thead>
                     <tr>
                     <th scope="col">PLACE</th>
-                    <th scope="col">SPORTS</th>
-                    <th scope="col">RANK</th>
                     <th scope="col">PRIZE</th>
                     </tr>
                 </thead>
@@ -45,8 +37,6 @@
                     @foreach($results as $index => $result)
                     <tr>
                     <th scope="row">{{$index+1}}</th>
-                    <td>{{$result->sport_id}}</td>
-                    <td>{{$result->rank_id}}</td>
                     <td>{{$result->prize}}</td>
                     </tr>
                     @endforeach

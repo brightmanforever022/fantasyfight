@@ -154,19 +154,18 @@ $('#select_period').on('change', function() {
 $('#select_prize_sport').on('change', function() {
     var host = $("#global_url").val();
     var sport_id = $('#select_prize_sport').val();
-    var rank_id = $('#select_prize_rank').val();
     $.ajax({
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         },
         type: "GET",
-        url: host + '/prizes/filter/' + sport_id + '/' + rank_id,
+        url: host + '/prizes/filter/' + sport_id,
         success: function(arr) {
             //console.log(arr)
             $(".prize-results").empty();
             if (arr.length > 0) {
                 for (var i = 0; i < arr.length; i++) {
-                    var element = '<tr><th>' + (i + 1) + '</th><td>' + arr[i].sport_id + '</td><td>' + arr[i].rank_id + '</td><td>' + arr[i].prize + '</td></tr>'
+                    var element = '<tr><th>' + (i + 1) + '</th><td>' + arr[i].prize + '</td></tr>'
                     $(".prize-results").append(element);
                 }
             }
@@ -180,19 +179,18 @@ $('#select_prize_sport').on('change', function() {
 $('#select_prize_rank').on('change', function() {
     var host = $("#global_url").val();
     var sport_id = $('#select_prize_sport').val();
-    var rank_id = $('#select_prize_rank').val();
     $.ajax({
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         },
         type: "GET",
-        url: host + '/prizes/filter/' + sport_id + '/' + rank_id,
+        url: host + '/prizes/filter/' + sport_id,
         success: function(arr) {
             //console.log(arr)
             $(".prize-results").empty();
             if (arr.length > 0) {
                 for (var i = 0; i < arr.length; i++) {
-                    var element = '<tr><th>' + (i + 1) + '</th><td>' + arr[i].sport_id + '</td><td>' + arr[i].rank_id + '</td><td>' + arr[i].prize + '</td></tr>'
+                    var element = '<tr><th>' + (i + 1) + '</th><td>' + arr[i].prize + '</td></tr>'
                     $(".prize-results").append(element);
                 }
             }

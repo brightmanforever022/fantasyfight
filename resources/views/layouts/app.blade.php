@@ -376,7 +376,7 @@
                     </div>
                 </div>
             </div>
-            @if(isset($sport) && (!empty($sport->image) || !empty($sport->description)))
+            @if(!str_contains(url()->current(), "prize") && isset($sport) && (!empty($sport->image) || !empty($sport->description)))
             <div class="modal fade" id="splashModal" tabindex="-1" role="dialog" data-show="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -387,7 +387,7 @@
                             <div class="text" style="font-family: KanedaLight; font-size: 20px; font-weight: 900; margin-bottom: 0px; line-height: 40px;">
                                 {{$sport->description}}
                             </div>
-                            <button type="button" data-toggle="modal" class="btn auth-btn" data-target="#splashModal">Set your team now</button>
+                            <a href="{{$sport->redirect_url}}" class="btn auth-btn">set your team now</a>
                         </div>
                     </div>
                 </div>
@@ -449,7 +449,7 @@
             <a href="{{ route('home', $sport->sport_id) }}" class="sub-header-item">{{ $sport->name }}</a>
             @endif
             @else
-            @if ($sport_id == $sport->sport_id)
+            @if (($sport_id == $sport->sport_id) && !str_contains(url()->current(), "prize"))
             <span class="sub-header-item active-item">{{ $sport->name }}</span>
             @else
             <a href="{{ route('home', $sport->sport_id) }}" class="sub-header-item">{{ $sport->name }}</a>
@@ -458,7 +458,11 @@
             @endforeach
         </div>
         <div class="sub-header-right">
-            <a href="{{ route('prizes') }}" class="sub-header-item">Prizes</a>
+            @if (str_contains(url()->current(), "prize"))
+                <a href="{{ route('prizes') }}" class="sub-header-item active-item">Prizes</a>
+            @else 
+                <a href="{{ route('prizes') }}" class="sub-header-item">Prizes</a>
+            @endif
         </div>
     </div>
     @show

@@ -18,27 +18,14 @@ class PrizesController extends Controller
             $sport_id = Session::get("sport_id");
         }
 
-        $results = Prize::all();
-
+        $results = Prize::where('sport_id', $first_sport_id)
+            ->get();
         return view('prizes', compact(['sports', 'sport_id', 'first_sport_id', 'results']));
     }
 
-    public function filter($sportId = 'all', $rankId = 'all') {
-        if ($sportId == 'all') {
-            if($rankId == 'all') {
-                $results = Prize::all();
-            } else {
-                $results = Prize::where('rank_id', $rankId)->get();
-            }
-        } else {
-            if($rankId == 'all') {
-                $results = Prize::where('sport_id', $sportId)->get();
-            } else {
-                $results = Prize::where('sport_id', $sportId)
-                    ->where('rank_id', $rankId)
-                    ->get();
-            }
-        }
+    public function filter($sportId = '') {
+        $results = Prize::where('sport_id', $sportId)
+            ->get();
         return $results;   
     }
 }
