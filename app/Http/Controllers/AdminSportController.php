@@ -45,7 +45,7 @@ class AdminSportController extends Controller
             'redirect_url' => $redirectUrl
         ]);
         
-        for ( $i = 1; $i < 4; $i++ ) {
+        for ( $i = 1; $i < 11; $i++ ) {
             Prize::create([
                 'sport_id' => str_replace(':', '-', str_replace('.', '-', str_replace(' ', '-', $request->name))),
                 'rank_id' => $i,

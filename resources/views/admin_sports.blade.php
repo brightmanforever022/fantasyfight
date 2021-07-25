@@ -35,8 +35,8 @@
                             <span class="welcome-label">Add Sport</span>
                             <div class="form-group custom-form-group">
                                 <input type="text" required name="name" class="form-control custom-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Sport Name">
-                                <div class="custom-control custom-checkbox my-3" data-toggle="collapse" href="#collapseSplash" role="button" aria-expanded="false" aria-controls="collapseSplash">
-                                    <input type="checkbox" class="custom-control-input" id="splashCheck" name="splashEnabled">
+                                <div class="custom-control custom-checkbox my-3" role="button" aria-expanded="false" aria-controls="collapseSplash">
+                                    <input type="checkbox" class="custom-control-input" id="splashCheck" name="splashEnabled" data-toggle="collapse" href="#collapseSplash">
                                     <label class="custom-control-label" for="splashCheck">Add splash page?</label>
                                 </div>
                                 <div class="collapse w-100" id="collapseSplash">
@@ -76,9 +76,9 @@
                                 <span class="prize-box-rank-label">Rank: </span>
                                 <div class="prize-box-select-rank">
                                     <select name="rank_id" class="form-control" id="select_period">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
+                                        @for($i = 1; $i < 11; $i ++)
+                                            <option value="{{$i}}">{{$i}}</option>
+                                        @endfor
                                     </select>
                                 </div>
                             </div>
@@ -124,11 +124,19 @@
                                             <span class="confirm-text">Are you sure to edit this sport?</span>
                                             <input type="text" class="form-control" name="name" value="{{$sport->name}}" placeholder="sport name">
 
-                                            <div class="custom-control custom-checkbox my-3" data-toggle="collapse" href="#collapseUpdateSplash" role="button" aria-expanded="false" aria-controls="collapseSplash">
-                                                <input type="checkbox" class="custom-control-input" id="splashUpdateCheck_{{$sport->sport_id}}" name="splashUpdateEnabled">
+                                            <div class="custom-control custom-checkbox my-3">
+                                                @if ($sport->image || $sport->description || $sport->redirect_url)
+                                                    <input type="checkbox" checked class="custom-control-input" id="splashUpdateCheck_{{$sport->sport_id}}" name="splashUpdateEnabled" data-toggle="collapse" href="#collapseUpdateSplash">
+                                                @else
+                                                    <input type="checkbox" class="custom-control-input" id="splashUpdateCheck_{{$sport->sport_id}}" name="splashUpdateEnabled" data-toggle="collapse" href="#collapseUpdateSplash">
+                                                @endif
                                                 <label class="custom-control-label" for="splashUpdateCheck_{{$sport->sport_id}}">Add splash page?</label>
                                             </div>
+                                            @if ($sport->image || $sport->description || $sport->redirect_url)
+                                            <div class="collapse w-100 show" id="collapseUpdateSplash">
+                                            @else
                                             <div class="collapse w-100" id="collapseUpdateSplash">
+                                            @endif    
                                                 <textarea class="form-control mt-2" name="description"  placeholder="sport description">{{$sport->description}}</textarea>
                                                 <input type="hidden" class="form-control mt-2" name="sport_id" value="{{$sport->sport_id}}">
                                                 <input type="text" class="form-control mt-2" name="redirectUrl" value="{{$sport->redirect_url}}" placeholder="redirect url">
@@ -139,7 +147,7 @@
                                             </div>
                                         </div>
                                         <div class="action-box">
-                                            <button type="button" class="btn delete-part-action delete-cancel-button" data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn delete-part-action delete-cancel-button" data-dismiss="modal" onClick={handleCancelButton()}>Cancel</button>
 
                                             <button type="submit" class="btn delete-part-action delete-button">Edit</button>
                                         </div>
@@ -207,3 +215,11 @@
     </div>
 </div>
 @stop
+
+@section('scripts')
+<script>
+    function handleCancelButton() {
+        window.top.location = window.top.location
+    }
+</script>
+@endsection
