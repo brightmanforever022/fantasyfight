@@ -1,0 +1,12 @@
+.prize-support-button {
+    background-image: linear-gradient(to bottom, #5ac1c2, #478acd);
+    color: #ffffff;
+}
+
+#splashSupportModal .modal-body{
+    min-height: 100px;
+}
+
+.modal-sport-description {
+    text-align: center;
+}
