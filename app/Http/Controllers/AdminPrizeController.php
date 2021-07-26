@@ -25,8 +25,9 @@ class AdminPrizeController extends Controller
     public function update(Request $request)
     {
         $updateArr = array('sport_id' => $request->sport_id,
-                             'rank_id' => $request->rank_id,
-                                 'prize' => $request->prize,
+                            'rank_id' => $request->rank_id,
+                              'prize' => $request->prize,
+                                'url' => $request->prizeUrl,
         );
 
         if (Prize::where('sport_id', $request->sport_id)

@@ -24,6 +24,7 @@ class AdminSportController extends Controller
     {
         $imageUrl = "";
         $description = "";
+        $redirectTitle = "";
         $redirectUrl = "";
 
         if ($request->splashEnabled) {
@@ -31,6 +32,7 @@ class AdminSportController extends Controller
                 $imageUrl = $request->file("image")->storePublicly("images");
             }
             $description = $request->description;
+            $redirectTitle = $request->redirectTitle;
             $redirectUrl = $request->redirectUrl;
         }
         $request->validate([
@@ -42,6 +44,7 @@ class AdminSportController extends Controller
             'sport_id' => str_replace(':', '-', str_replace('.', '-', str_replace(' ', '-', $request->name))),
             'image' => $imageUrl,
             'description' => $description,
+            'redirect_title' => $redirectTitle,
             'redirect_url' => $redirectUrl
         ]);
         
@@ -49,7 +52,8 @@ class AdminSportController extends Controller
             Prize::create([
                 'sport_id' => str_replace(':', '-', str_replace('.', '-', str_replace(' ', '-', $request->name))),
                 'rank_id' => $i,
-                'prize' => 0
+                'prize' => 0,
+                'url' => ''
             ]);
         }
         
@@ -60,6 +64,7 @@ class AdminSportController extends Controller
 
         $imageUrl = "";
         $description = "";
+        $redirectTitle = "";
         $redirectUrl = "";
 
         if ($request->splashUpdateEnabled) {
@@ -67,13 +72,20 @@ class AdminSportController extends Controller
                 $imageUrl = $request->file("image")->storePublicly("images");
             }
             $redirectUrl = $request->redirectUrl;
+            $redirectTitle = $request->redirectTitle;
             $description = $request->description;
         }
         $request->validate([
             'name' => 'required',
         ]);
 
-        $updateArr = array('name' => $request->name, 'description' => $description, 'image' => $imageUrl, 'redirect_url' => $redirectUrl);
+        $updateArr = array(
+            'name' => $request->name,
+            'description' => $description,
+            'image' => $imageUrl,
+            'redirect_title' => $redirectTitle,
+            'redirect_url' => $redirectUrl
+        );
 
         if (Sport::where('sport_id', $request->sport_id)->update($updateArr)) {
             return redirect()->route('admin');

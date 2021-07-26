@@ -12,6 +12,6 @@ class Prize extends Model
     public $timestamps = true;
 
     protected $fillable = [
-        'sport_id', 'rank_id', 'prize'
+        'sport_id', 'rank_id', 'prize', 'url'
     ];
 }

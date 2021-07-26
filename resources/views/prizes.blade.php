@@ -37,7 +37,7 @@
                     @foreach($results as $index => $result)
                     <tr>
                     <th scope="row">{{$index+1}}</th>
-                    <td>{{$result->prize}}</td>
+                    <td><a href="{{ $result->url }}" class="prize-redirect-url">{{$result->prize}}</a></td>
                     </tr>
                     @endforeach
                 </tbody>

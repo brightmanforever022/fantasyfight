@@ -42,6 +42,7 @@
                                 <div class="collapse w-100" id="collapseSplash">
                                     <textarea name="description" placeholder="Add Description" class="form-control mt-3"></textarea>
                                     <input type="text" class="form-control mt-2" name="redirectUrl" id="storeRedirectUrl" placeholder="redirect url">
+                                    <input type="text" class="form-control mt-2" name="redirectTitle" id="storeRedirectTitle" placeholder="redirect title">
                                     <div class="custom-file mt-2">
                                         <input type="file" name="image" accept="image/*" id="splashImage" />
                                         <label class="custom-file-label" for="splashImage">Choose Image</label>
@@ -88,7 +89,13 @@
                                     <input name="prize" type="text" class="form-control prize-box-input">
                                 </div>
                             </div>
-                            <div class="prize-bix-update-button-area">
+                            <div class="prize-box-prize-area">
+                                <span class="prize-box-url-label">Url: </span>
+                                <div class="prize-box-url">
+                                    <input name="prizeUrl" type="text" class="form-control prize-box-input">
+                                </div>
+                            </div>
+                            <div class="prize-box-update-button-area">
                                 <button type="submit" class="btn add-sports update-prize">Update</button>
                             </div>
                         </form>
@@ -140,6 +147,7 @@
                                                 <textarea class="form-control mt-2" name="description"  placeholder="sport description">{{$sport->description}}</textarea>
                                                 <input type="hidden" class="form-control mt-2" name="sport_id" value="{{$sport->sport_id}}">
                                                 <input type="text" class="form-control mt-2" name="redirectUrl" value="{{$sport->redirect_url}}" placeholder="redirect url">
+                                                <input type="text" class="form-control mt-2" name="redirectTitle" value="{{$sport->redirect_title}}" id="storeRedirectTitle" placeholder="redirect title">
                                                 <div class="custom-file mt-2">
                                                     <input type="file" name="image" accept="image/*" id="splashImageUpdate_{{$sport->sport_id}}" />
                                                     <label class="custom-file-label" for="splashImageUpdate_{{$sport->sport_id}}">Choose Image</label>

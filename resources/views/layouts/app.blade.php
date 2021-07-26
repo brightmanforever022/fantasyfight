@@ -387,7 +387,11 @@
                             <div class="text" style="font-family: KanedaLight; font-size: 20px; font-weight: 900; margin-bottom: 0px; line-height: 40px;">
                                 {{$sport->description}}
                             </div>
+                            @if(!$sport->redirect_title)
                             <a href="{{$sport->redirect_url}}" class="btn auth-btn">set your team now</a>
+                            @else
+                            <a href="{{$sport->redirect_url}}" class="btn auth-btn">{{$sport->redirect_title}}</a>
+                            @endif
                         </div>
                     </div>
                 </div>

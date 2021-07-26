@@ -209,3 +209,8 @@
     margin-top: 15px;
     width: calc(100% - 50px);
 }
+
+.prize-redirect-url {
+    color: #ffffff;
+    text-decoration: underline;
+}

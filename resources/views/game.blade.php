@@ -45,10 +45,9 @@
             </div>
         </div>
         @endforeach
-        <span class="game-credit">You need 1 credit to play this game</span>
+        <span class="game-credit">Unlimited Games for $5 per Month</span>
         <div class="submit-box">
             <button id="qa_result" class="btn submit-btn">Submit</button>
-            
         </div>
     </div>
 
