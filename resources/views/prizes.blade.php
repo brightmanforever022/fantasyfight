@@ -43,27 +43,27 @@
                 </tbody>
             </table>
         </div>
-        <button type="button" class="btn prize-support-button mt-3" data-dismiss="modal" onClick="handleSupportButtonClick({{$sports}})">Support</button>
+        <div class="prize-support-button-area">
+            <button type="button" class="btn prize-support-button" data-dismiss="modal" onClick="handleSupportButtonClick({{$sports}})">Support</button>
+        </div>  
     </div>
     <!-- Modal -->
     <div class="modal fade show" id="splashSupportModal" tabindex="-1" role="dialog" data-show="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-body text-center">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="modal-sport-description">
+                        For questions or to make updates to your account, please email joe@fantasyfightleague.com
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 @stop
 
 @section('scripts')
 <script>
-    function handleSupportButtonClick(sports) {
-        let sportId = $("#select_prize_sport").val();
-        currentSport = sports.filter(sport => sport.sport_id === sportId);
-        let element = '<div class="modal-sport-description">' + currentSport[0].description + '</div>';
-        $("#splashSupportModal .modal-body").empty();
-        $("#splashSupportModal .modal-body").append(element);
+    function handleSupportButtonClick() {
         $("#splashSupportModal").modal();
     }
 </script>

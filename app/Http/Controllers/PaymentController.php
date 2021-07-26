@@ -50,6 +50,12 @@ class PaymentController extends Controller
             "amount" => $credit * $this->costPerCredit
         ]);
 
+        GameUser::where("name", $name)->update(
+            [
+                "credit" => $credit
+            ]
+        );
+
         return [
             'id' => $session->id
         ];
