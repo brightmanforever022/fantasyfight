@@ -12,9 +12,6 @@ class GameUserController extends Controller
 {
     public function login(Request $request)
     {
-        
-
-
         $validater = $request->validate([
             'email' => 'required',
             'password' => 'required'
@@ -60,6 +57,19 @@ class GameUserController extends Controller
             'terms' => ($request->terms == 'on') ? true : false
         ]);
 
+        $mathchTese = [
+            'email' => $request->email
+        ];
+        $result = GameUser::where($mathchTese)
+            ->first();
+        $result->makeVisible(["password"]);
+
+        if (!Hash::check($request->password, $result->password)) {
+            return 'error';
+        }
+
+        Session::put('email', $result->email);
+        Session::put('name', $result->name);
         return redirect()->route('user.completed');
     }
 

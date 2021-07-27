@@ -38,34 +38,33 @@
         function initiateStripeSession(credit = 1) {
             var stripe = Stripe("{{env('STRIPE_CLIENT_KEY')}}");
             fetch('/payments/initiate', {
-                    method: 'POST',
-                    body: "credit=" + credit,
-                    headers: {
-                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
-                        'Content-Type': 'application/x-www-form-urlencoded'
-                    }
-                })
-                .then(function(response) {
-                    return response.json();
-                })
-                .then(function(session) {
-                    return stripe.redirectToCheckout({
-                        sessionId: session.id,
-                        successUrl: "https://fantasyfightleague.com/"
-                    });
-                })
-                .then(function(result) {
-                    // If `redirectToCheckout` fails due to a browser or network
-                    // error, you should display the localized error message to your
-                    // customer using `error.message`.
-                    if (result.error) {
-                        alert(result.error.message);
-                    }
-                })
-                .catch(function(error) {
-                    console.error('Error:', error);
+                method: 'POST',
+                body: "credit=" + credit,
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            })
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(session) {
+                return stripe.redirectToCheckout({
+                    sessionId: session.id,
+                    successUrl: "https://fantasyfightleague.com/"
                 });
-            redirect()->to("https://fantasyfightleague.com/")
+            })
+            .then(function(result) {
+                // If `redirectToCheckout` fails due to a browser or network
+                // error, you should display the localized error message to your
+                // customer using `error.message`.
+                if (result.error) {
+                    alert(result.error.message);
+                }
+            })
+            .catch(function(error) {
+                console.error('Error:', error);
+            });
         }
         gtag('js', new Date());
         gtag('config', 'G-625K5YDS2J');
@@ -552,9 +551,15 @@
         $('#successfullySignedModal').modal('show');
     </script>
     @else
-    <script>
-        $("#splashModal").modal();
-    </script>
+        @if (!Session::get('name'))
+            <script>
+                $("#loginModal").modal();
+            </script>
+        @else 
+            <script>
+                $("#splashModal").modal();
+            </script>
+        @endif
     @endif
 
     @yield('scripts')
