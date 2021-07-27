@@ -50,8 +50,7 @@
             })
             .then(function(session) {
                 return stripe.redirectToCheckout({
-                    sessionId: session.id,
-                    successUrl: "https://fantasyfightleague.com/"
+                    sessionId: session.id
                 });
             })
             .then(function(result) {

@@ -70,6 +70,7 @@ class GameUserController extends Controller
 
         Session::put('email', $result->email);
         Session::put('name', $result->name);
+        
         return redirect()->route('user.completed');
     }
 
