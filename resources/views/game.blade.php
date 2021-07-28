@@ -46,7 +46,7 @@
         </div>
         @endforeach
         <span class="game-credit">Unlimited Games for $5 per Month</span>
-        @if(Session::get('credit') != '0')
+        @if(getMyCredits())
             <div class="submit-box">
                 <button id="qa_result" class="btn submit-btn">Submit</button>
             </div>

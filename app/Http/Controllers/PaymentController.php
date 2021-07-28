@@ -34,7 +34,7 @@ class PaymentController extends Controller
             ]],
             'mode' => 'payment',
             'success_url' => env("APP_URL"),
-            'cancel_url' => env("APP_URL"),
+            'cancel_url' => env("APP_URL").'/payments/cancel',
         ]);
 
         $user = GameUser::where("name", $name)->first();
@@ -49,12 +49,6 @@ class PaymentController extends Controller
             "credit" => $credit,
             "amount" => $credit * $this->costPerCredit
         ]);
-
-        GameUser::where("name", $name)->update(
-            [
-                "credit" => $credit
-            ]
-        );
 
         return [
             'id' => $session->id
@@ -107,5 +101,14 @@ class PaymentController extends Controller
         }
         $payments = Payment::where("status", "!=", "initiated")->where("gameuser_id", $user->id)->get();
         return view("payment", compact("payments", 'sports', 'first_sport_id', 'sport_id'));
+    }
+
+    public function removeSession() 
+    {
+        $name = Session::get('name');   
+
+        $user = GameUser::where("name", $name)->first();
+        Payment::where('gameuser_id', $user->id)->delete();
+        return redirect()->route("home");
     }
 }

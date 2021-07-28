@@ -55,10 +55,11 @@ Route::delete('/admin/answer/delete', [AdminAnswerController::class, 'delete'])-
 
 Route::get('/prizes', [PrizesController::class, 'index'])->name('prizes');
 Route::get('/prizes/filter/{sport_id}', [PrizesController::class, 'filter'])->name('prizes.filter');
+Route::get('/payments/cancel', [PaymentController::class, 'removeSession'])->name('payments.cancel');
 Route::get("/payments/all", [PaymentController::class, 'payments'])->name('payments.view');
+Route::post('/payments/initiate', [PaymentController::class, 'createSession'])->name('payments.initiate');
 Route::get('/{id?}', [HomeController::class, 'index'])->name('home');
 Route::get('/home/logout', [HomeController::class, 'logout'])->name('home.logout');
 Route::get('/{sport_id}/{game_id}', [GameController::class, 'index'])->name('game');
 Route::post('/userpoints/store', [UserPointsController::class, 'store'])->name('userpoints.store');
-Route::post('/payments/initiate', [PaymentController::class, 'createSession'])->name('payments.initiate');
 Route::get("/admin/users/download", [AdminUserController::class, 'exportUsers'])->name('admin.users.download');

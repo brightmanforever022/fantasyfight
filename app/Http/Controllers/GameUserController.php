@@ -31,7 +31,6 @@ class GameUserController extends Controller
 
             Session::put('email', $result->email);
             Session::put('name', $result->name);
-            Session::put('credit', $result->credit);
             return 'success';
         } else {
             return 'error';
@@ -72,7 +71,6 @@ class GameUserController extends Controller
 
         Session::put('email', $result->email);
         Session::put('name', $result->name);
-        Session::put('credit', 0);
         
         return redirect()->route('user.completed');
     }
