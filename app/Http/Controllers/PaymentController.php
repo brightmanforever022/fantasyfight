@@ -92,8 +92,6 @@ class PaymentController extends Controller
 
     public function payments() 
     {
-
-
         $sport_id = NULL;
         $sports = Sport::orderBy('created_at', 'desc')->get();
         $first_sport = $sports->first();

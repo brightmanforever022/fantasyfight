@@ -339,13 +339,13 @@
             <button class="btn auth-btn" data-toggle="modal" data-target="#loginModal">LOGIN</button>
             <button class="btn auth-btn" data-toggle="modal" data-target="#joinModal">JOIN</button>
             @else
-            <a href="{{ route('profile') }}/{{ Session::get('name') }}" class="user-name">{{ Session::get('name') }}</a>
+                <a href="{{ route('profile') }}/{{ Session::get('name') }}" class="user-name">{{ Session::get('name') }}</a>
 
-            <!-- <a href="{{ route('payments.view') }}" class="user-name">My Payments </a> -->
-            <button type="button" class="btn auth-btn" data-toggle="modal" data-target="#paymentModal">
-                {{ getMyCredits() }} Credits
-            </button>
-            <a href="{{ route('home.logout') }}"><i class="fas fa-sign-out-alt"></i></a>
+                <!-- <a href="{{ route('payments.view') }}" class="user-name">My Payments </a> -->
+                <span class="mr-2">
+                    {{ getMyCredits() }} Credit
+                </span>
+                <a href="{{ route('home.logout') }}"><i class="fas fa-sign-out-alt"></i></a>
             @endif
             <div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog" role="document">
@@ -411,6 +411,7 @@
                                 <input autocomplete="off" type="email" name="email" class="form-control custom-input login-email" aria-describedby="emailHelp" placeholder="Email">
                                 <input autocomplete="off" type="password" name="password" class="form-control custom-input login-password" aria-describedby="emailHelp" placeholder="Password">
                                 <button type="button" class="btn submit-btn" id="login-button">LOGIN</button>
+                                <button class="btn submit-btn" id="login-join-button" data-toggle="modal" data-target="#joinModal">JOIN</button>
                             </div>
                             {{-- </form> --}}
                         </div>

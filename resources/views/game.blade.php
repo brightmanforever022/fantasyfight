@@ -46,9 +46,15 @@
         </div>
         @endforeach
         <span class="game-credit">Unlimited Games for $5 per Month</span>
-        <div class="submit-box">
-            <button id="qa_result" class="btn submit-btn">Submit</button>
-        </div>
+        @if(Session::get('credit') != '0')
+            <div class="submit-box">
+                <button id="qa_result" class="btn submit-btn">Submit</button>
+            </div>
+        @else
+            <div class="submit-box">
+                <button id="qa_result_paywall" class="btn  submit-btn" onclick="initiateStripeSession(1)">Submit</button>
+            </div>
+        @endif
     </div>
 
     <div class="modal" id="myModal">

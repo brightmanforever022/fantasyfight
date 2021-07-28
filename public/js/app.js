@@ -220,4 +220,7 @@ $(document).ready(function() {
             }
         })
     });
+    $('#login-join-button').click(function() {
+        $('#loginModal').modal('hide')
+    })
 });
