@@ -377,7 +377,10 @@
                     </div>
                 </div>
             </div>
-            @if(!str_contains(url()->current(), "prize") && isset($sport) && (!empty($sport->image) || !empty($sport->description)))
+            @if(!str_contains(url()->current(), "prize")
+                && (url()->current() != env('APP_URL'))
+                && isset($sport) && (!empty($sport->image)
+                || !empty($sport->description)))
             <div class="modal fade" id="splashModal" tabindex="-1" role="dialog" data-show="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
